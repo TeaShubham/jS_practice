@@ -3,18 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock-Paper-Scissor</title>
+    <link rel="stylesheet" href="Main.css">
 </head>
 <body>
-        <button
-        onclick="playGame('rock');">
-            rock</button>
-        <button
-            onclick="playGame('paper');">
-            paper</button>
-        <button 
-            onclick="playGame('scissor');">
-            scissor</button>
+    <p class="title">Rock Paper Scissors</p>
+    <button class="move-button js-rock-button">
+      <img src="assets/rock-emoji.png" class="move-icon">
+    </button>
+
+    <button class="move-button js-paper-button">
+      <img src="assets/paper-emoji.png" class="move-icon">
+    </button>
+
+    <button class="move-button js-scissors-button">
+      <img src="assets/scissors-emoji.png" class="move-icon">
+    </button>
     <button onclick="Reset_Score();">
         Reset Score</button>
         <script src="game.js">
