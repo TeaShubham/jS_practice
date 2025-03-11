@@ -48,7 +48,7 @@
              alert(`you picked ${playerMove} and computer pick is ${computerMove}, you ${result}
             wins: ${Score.wins}, Losses: ${Score.losses}, tied: ${Score.tied}`);
             }
-                    }
+                    
             
                     function ComputerMove() {
                        let randomNumber=Math.random();
